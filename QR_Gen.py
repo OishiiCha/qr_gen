@@ -25,7 +25,7 @@ root.geometry(str(width) + "x" + str(height))
 root.iconbitmap('data/logo.ico')
 
 def go_button():
-    myurl = str(trm(url_ent.get()))
+    myurl = str(url_ent.get())
     filename = str(file_ent.get())
     img = qrcode.make(myurl)
     type(img)
